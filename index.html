@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Payment info</h1>
+    <form>
+        <label for="full-name">Full Name</label>
+        <input id="full-name" type="text" required class="full-name"/>
+        <label for="credit-car-number">Credit Card Number</label>
+        <input id="credit-car-number" type="number" class="credit-car-number" required/>
+        <label for="ext-date">Ext Date</label>
+        <input id="ext-date" type="date" class="ext-date" required/>
+        <label for="cvv">CVV</label>
+        <input id="cvv" type="number" class="cvv" required/>
+        <label for="zip-code">Zip Code</label>
+        <input id="zip-code" type="number" class="zip-code" max="6" required/>
+        <button type="submit" class="btn">Confirm Payment</button>
+        <p class="text">You verify that this info is correct</p>
+    </form>
+</body>
+</html>
