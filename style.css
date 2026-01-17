@@ -17,6 +17,11 @@ input{
     border-radius: 10px;
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 button{
     background-color: #288FB4;
@@ -25,4 +30,18 @@ button{
     height: 62px;
     padding:24px 12px;
     border-radius: 10px;
+}
+
+/* modal pencere */
+.modal{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(94, 94, 94, 0.55);
+    
 }
